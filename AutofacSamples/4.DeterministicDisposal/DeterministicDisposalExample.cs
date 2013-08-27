@@ -7,7 +7,6 @@ namespace AutofacSamples.DeterministicDisposal
   {
 
     //container.BeginLifetimeScope
-
     public static void Execute()
     {
       ContainerBuilder containerBuilder = new ContainerBuilder();

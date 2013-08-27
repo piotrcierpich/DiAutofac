@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Linq;
+﻿using System.Linq;
 
 namespace AutofacSamples.Problem
 {
     class MovieLister
     {
-        private IMovieFinder finder;
+        private readonly IMovieFinder finder;
 
         public MovieLister()
         {

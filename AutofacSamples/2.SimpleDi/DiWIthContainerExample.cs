@@ -4,6 +4,7 @@ namespace AutofacSamples.SimpleDi
 {
     class DiWIthContainerExample
     {
+        // container works as a builder which with configuration
         public static void Execute()
         {
             ContainerBuilder containerBuilder = new ContainerBuilder();
