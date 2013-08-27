@@ -1,0 +1,46 @@
+﻿@model IEnumerable<DiInAspMvc.Models.Car>
+
+@{
+    ViewBag.Title = "Home Page";
+    
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+
+        </div>
+    </section>
+}
+<h3>Expensive cars:</h3>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(car => car.Producer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(car => car.Model)
+        </th>
+        <th>
+            @Html.DisplayNameFor(car => car.Price)
+        </th>
+    </tr>
+    @foreach (var car in Model)
+    {
+        <tr>
+            <td>
+                @car.Producer
+            </td>
+            <td>
+                @car.Model
+            </td>
+            <td>
+                @car.Price
+            </td>
+        </tr>
+    }
+</table>
