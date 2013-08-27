@@ -5,6 +5,9 @@ namespace AutofacSamples.DeterministicDisposal
 {
   class DeterministicDisposalExample
   {
+
+    //container.BeginLifetimeScope
+
     public static void Execute()
     {
       ContainerBuilder containerBuilder = new ContainerBuilder();

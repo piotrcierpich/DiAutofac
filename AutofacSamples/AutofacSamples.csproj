@@ -106,7 +106,6 @@
     <Compile Include="0.Common\XmlMovieFinder.cs" />
     <Compile Include="1.Problem\MovieLister.cs" />
     <Compile Include="8.AssemblyScanning\AssemblyScanningExample.cs" />
-    <Compile Include="Legacy_10.ComponentsTesting\MocksExample.cs" />
     <Compile Include="2.SimpleDi\DiNoContainerExample.cs" />
     <Compile Include="2.SimpleDi\MovieLister.cs" />
     <Compile Include="3.ComplicatingThings\Logging\FileLogger.cs" />
@@ -121,35 +120,13 @@
     <Compile Include="7.Modules\InMemoryMovieFinder.cs" />
     <Compile Include="7.Modules\ModulesExample.cs" />
     <Compile Include="7.Modules\MoviesModule.cs" />
-    <Compile Include="Legacy_2.DiContainerAsServiceLocator\MovieLister.cs" />
-    <Compile Include="Legacy_3.DependencyInjection1ConstructorInjection\DependencyInjection1Example.cs" />
-    <Compile Include="Legacy_3.DependencyInjection1ConstructorInjection\MovieLister.cs" />
     <Compile Include="3.ComplicatingThings\Ratings\IMovieRatingFactory.cs" />
     <Compile Include="3.ComplicatingThings\MovieWithRating.cs" />
     <Compile Include="3.ComplicatingThings\XmlMovieWithRatingsFinder.cs" />
-    <Compile Include="Legacy_4.DependencyInjection2SetterInjection\DependencyInjection2Example.cs" />
-    <Compile Include="Legacy_4.DependencyInjection2SetterInjection\MovieLister.cs" />
-    <Compile Include="Legacy_6.DependencyInjection3ReplacingDependencies\AlternativeMovieFinder.cs" />
-    <Compile Include="Legacy_6.DependencyInjection3ReplacingDependencies\DependencyInjection3Example.cs" />
-    <Compile Include="Legacy_6.DependencyInjection3ReplacingDependencies\MovieLister.cs" />
-    <Compile Include="Legacy_8.DeterministicDisposal\DeterministincDisposalExample.cs" />
-    <Compile Include="Legacy_8.DeterministicDisposal\DisposableClass.cs" />
-    <Compile Include="Legacy_10.ComponentsTesting\MovieFinderMock.cs" />
-    <Compile Include="Legacy_10.ComponentsTesting\MovieLister.cs" />
-    <Compile Include="Legacy_11.Modules\AlternativeMovieFinder.cs" />
-    <Compile Include="Legacy_11.Modules\MovieFinderCustomModule.cs" />
-    <Compile Include="Legacy_11.Modules\ModulesExample.cs" />
-    <Compile Include="Legacy_11.Modules\MovieLister.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="0.Common\IMovieFinder.cs" />
     <Compile Include="0.Common\Movie.cs" />
-    <Compile Include="Legacy_2.DiContainerAsServiceLocator\ServiceLocatorExample.cs" />
-    <Compile Include="Legacy_5.ServiceLocatorSelfRegistered\MovieLister.cs" />
-    <Compile Include="Legacy_2.DiContainerAsServiceLocator\ServiceLocator.cs" />
-    <Compile Include="Legacy_5.ServiceLocatorSelfRegistered\ServiceLocatorSelfRegisteredExample.cs" />
-    <Compile Include="Legacy_7.XmlConfiguration\MovieLister.cs" />
-    <Compile Include="Legacy_7.XmlConfiguration\XmlConfigurationExample.cs" />
     <Compile Include="9.Scoping\ScopingExample.cs" />
   </ItemGroup>
   <ItemGroup>
