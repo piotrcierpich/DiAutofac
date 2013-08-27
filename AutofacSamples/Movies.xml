@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Movies>
+  <Movie>
+    <Director>Frank Darabont</Director>
+    <Title>The Shawshank Redemption</Title>
+  </Movie>
+  <Movie>
+    <Director>Steven Spielberg</Director>
+    <Title>Schindler's List</Title>
+  </Movie>
+  <Movie>
+    <Director>Milos Forman</Director>
+    <Title>One Flew Over the Cuckoo's Nest</Title>
+  </Movie>
+  <Movie>
+    <Director>Steven Spielberg</Director>
+    <Title>Catch Me If You Can</Title>
+  </Movie>
+</Movies>
