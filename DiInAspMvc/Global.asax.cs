@@ -22,8 +22,13 @@ namespace DiInAspMvc
         protected void Application_Start()
         {
             var containerBuilder = new ContainerBuilder();
+
             containerBuilder.RegisterControllers(typeof(MvcApplication).Assembly);
-            containerBuilder.RegisterType<ExpensiveCarsRepository>().AsImplementedInterfaces();
+
+            containerBuilder.RegisterType<ExpensiveCarsRepository>()
+                            .AsImplementedInterfaces()
+                            .InstancePerHttpRequest();
+
             var container = containerBuilder.Build();
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
 
