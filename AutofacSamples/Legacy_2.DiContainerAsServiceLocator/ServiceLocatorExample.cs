@@ -2,7 +2,7 @@
 
 namespace AutofacSamples.DiContainerAsServiceLocator
 {
-    class ServiceLocatorExample
+    class ServiceLocatorExample2
     {
         public static void Execute()
         {

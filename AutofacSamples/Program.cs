@@ -16,7 +16,10 @@ namespace AutofacSamples
       //AssemblyScanning.AssemblyScanningExample.Execute();
       //Scoping.ScopingExample.Execute();
       //PropertyInjection.PropertyInjectionExample.Execute();
-      DynamicProxy.DynamicProxyExample.Execute();
+      //DynamicProxy.DynamicProxyExample.Execute();
+      DiContainerAsServiceLocator.ServiceLocatorExample.Execute();
+
+
 
       //ServiceLocator.ServiceLocatorExample.Execute();
       //DependencyInjection1Example.Execute();

@@ -95,6 +95,7 @@
     <Compile Include="11.DynamicProxy\ConsoleLoggerInterceptor.cs" />
     <Compile Include="11.DynamicProxy\DynamicProxyExample.cs" />
     <Compile Include="11.DynamicProxy\Wrapped.cs" />
+    <Compile Include="12.DiContainerAsServiceLocator\ServiceLocatorExample.cs" />
     <Compile Include="2.SimpleDi\DiWIthContainerExample.cs" />
     <Compile Include="0.Common\IMovieLister.cs" />
     <Compile Include="3.ComplicatingThings\Ratings\GoodMovieRating.cs" />
